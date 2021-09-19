@@ -5,7 +5,7 @@ class Student:
     self.quiz_scores_lst = []
     self.hw_scores_lst = []
 
-
+#define student scores
   def add_test_scores(self, lst):
     for score in lst:
       self.test_scores_lst.append(score)
